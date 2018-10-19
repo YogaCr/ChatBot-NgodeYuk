@@ -1,0 +1,207 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Variabel",
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Tipe Variabel",
+                        "weight": "bold",
+                        "size": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "wrap": true,
+                        "text": "Pada Kotlin,tipe variabel ada 2 : "
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "margin": "xxl",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "Var : ",
+                                "weight": "bold",
+                                "flex": 2
+                            },
+                            {
+                                "type": "text",
+                                "text": "Tipe variabel yang bisa dirubah nilainya",
+                                "wrap": true,
+                                "flex":10
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "Val : ",
+                                "weight": "bold",
+                                "flex": 2
+                            },
+                            {
+                                "type": "text",
+                                "text": "Tipe variabel yang tidak bisa dirubah nilainya (static)",
+                                "wrap": true,
+                                "flex":10
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "margin": "xxl",
+                        "wrap": true,
+                        "text": "Variabel pada Kotlin harus diinisialisasi (diberi nilainya) dari awal. Atau bisa menggunakan `lateinit` untuk menginisialisasi di waktu lain (khusus var)"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Variabel",
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Tipe Data",
+                        "weight": "bold",
+                        "size": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "wrap": true,
+                        "text": "Tipe data pada Kotlin : "
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "margin": "xxl",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "Numeric",
+                                "weight": "bold",
+                                "flex": 4
+                            },
+                            {
+                                "type": "text",
+                                "text": "Tipe data yang bernilai angka.\nTerdiri dari `int,double,float,long,short,byte`",
+                                "wrap": true,
+                                "flex":10
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "Boolean",
+                                "weight": "bold",
+                                "flex": 4
+                            },
+                            {
+                                "type": "text",
+                                "text": "Tipe data yang bernilai `true` dan `false`",
+                                "wrap": true,
+                                "flex":10
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "Char",
+                                "weight": "bold",
+                                "flex": 4
+                            },
+                            {
+                                "type": "text",
+                                "text": "Tipe data yang digunakan untuk menulis satu huruf saja.",
+                                "wrap": true,
+                                "flex":10
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "String",
+                                "weight": "bold",
+                                "flex": 4
+                            },
+                            {
+                                "type": "text",
+                                "text": "Tipe data yang digunakan untuk menulis kata atau kalimat",
+                                "wrap": true,
+                                "flex":10
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "margin": "xl",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "color": "#3366cc",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "Lanjut",
+                                    "data":"type=4&flex_kotlin_array.json",
+                                    "text":"Ajari Kotlin Array dan List"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

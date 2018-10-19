@@ -1,0 +1,220 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Access Modifier",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Public",
+                        "weight": "bold"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Public adalah jenis access modifier di mana variabel atau method yang bertipe ini bisa diakses oleh class manapun. Secara default,semua class,variabel,atau method sudah bertipe public.",
+                        "wrap": true,
+                        "size":"sm"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/access/public.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Access Modifier",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Private",
+                        "weight": "bold"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Private adalah jenis access modifier di mana variabel atau method yang bertipe ini tidak bisa diakses oleh kelas manapun dan hanya bisa diakses oleh class itu sendiri.",
+                        "wrap": true,
+                        "size":"sm"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/access/private.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Access Modifier",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Protected",
+                        "weight": "bold"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Protected adalah jenis access modifier di mana variabel atau method yang bertipe ini bisa diakses oleh subclass dan class itu sendiri.",
+                        "wrap": true,
+                        "size":"sm"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/access/protected.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Access Modifier",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Internal",
+                        "weight": "bold"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Jika menggunakan internal,maka class yang berada dalam satu modul saja yg bisa mengakses.",
+                        "wrap": true,
+                        "size":"sm"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Perhatikan bahwa class mobil berada pada modul yang berbeda sehingga variabel roda tidak bisa diakses.",
+                        "wrap": true,
+                        "size":"sm"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/access/contohmodul.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/access/internal2.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/access/internal1.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    },
+                    {
+                        "type": "box",
+                        "margin": "xl",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "color": "#ff1a1a",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "Kembali",
+                                    "data":"type=4&flex_kotlin_null.json",
+                                    "text":"Ajari Kotlin Null"
+                                }
+                            },
+                            {
+                                "type": "separator",
+                                "margin": "md"
+                            },
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "color": "#3366cc",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "Lanjut",
+                                    "data":"type=4&flex_kotlin_function.json",
+                                    "text":"Ajari Kotlin Function"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

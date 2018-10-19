@@ -1,0 +1,161 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Array dan List",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Array",
+                        "weight": "bold",
+                        "size": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Array adalah sebuah variabel yang menyimpan banyak nilai. \nDengan array, programmer tidak perlu membuat banyak variabel karena bisa dikumpulkan dalam satu variabel",
+                        "wrap": true
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/array/array.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Array dan List",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Multidimensional Array",
+                        "weight": "bold",
+                        "size": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Kita juga bisa membuat array di dalam array. Array tersebut disebut Multidimensional Array.",
+                        "wrap": true
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/array/multiarray.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Array dan List",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "List",
+                        "weight": "bold",
+                        "size": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Selain array,kita bisa mengelompokkan data pada List. Bedanya, ukuran banyak data pada list bersifat dinamis,sehingga kita bisa menambahkan data pada list kapanpun dimanapun.",
+                        "wrap": true
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/array/list.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    },
+                    {
+                        "type": "box",
+                        "margin": "xl",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "color": "#ff1a1a",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "Kembali",
+                                    "data": "type=4&flex_kotlin_variabel.json",
+                                    "text": "Ajari Kotlin Variabel"
+                                }
+                            },
+                            {
+                                "type": "separator",
+                                "margin": "md"
+                            },
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "color": "#3366cc",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "Lanjut",
+                                    "data": "type=4&flex_kotlin_decision.json",
+                                    "text": "Ajari Kotlin Logika dan Perulangan"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

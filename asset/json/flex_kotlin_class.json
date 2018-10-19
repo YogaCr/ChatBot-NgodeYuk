@@ -1,0 +1,120 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Class",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Nested Class",
+                        "weight": "bold"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Nested class adalah class yang berada di dalam class lain. Cara mengaksesnya yaitu panggil class paling luar baru class yg dalam. Nested class harus memiliki kata kunci 'nested' sebelum kata class.",
+                        "wrap": true,
+                        "size":"sm"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/tipeclass/innerclass.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Class",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Data Class",
+                        "weight": "bold"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Data class adalah class yang hanya berisi properties saja dan tidak memiliki method. Kata kunci dari class tipe ini adalah 'data' yang terletak sebelum kata class",
+                        "wrap": true,
+                        "size":"sm"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/tipeclass/dataclass.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    },
+                    {
+                        "type": "box",
+                        "margin": "xl",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "color": "#ff1a1a",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "Kembali",
+                                    "data":"type=4&flex_kotlin_function.json",
+                                    "text":"Ajari Kotlin Function"
+                                }
+                            },
+                            {
+                                "type": "separator",
+                                "margin": "md"
+                            },
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "color": "#3366cc",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "Lanjut",
+                                    "data":"type=4&flex_kotlin_oop.json",
+                                    "text":"Ajari Kotlin OOP"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

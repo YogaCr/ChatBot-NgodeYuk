@@ -1,0 +1,201 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Decision dan Perulangan",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "If",
+                        "weight": "bold",
+                        "size": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Kode dalam blok if akan dijalankan apabila if bernilai true",
+                        "wrap": true
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/logikaperulangan/if.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Decision dan Perulangan",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "When",
+                        "weight": "bold",
+                        "size": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Hampir sama dengan if. Bedanya adalah pada when sudah ditentukan kondisi apa yang akan bernilai true",
+                        "wrap": true
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/logikaperulangan/when.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Decision dan Perulangan",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "While",
+                        "weight": "bold",
+                        "size": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Kode di dalam blok while akan terus dijalankan selama bernilai true",
+                        "wrap": true
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/logikaperulangan/while.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Decision dan Perulangan",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "For",
+                        "weight": "bold",
+                        "size": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Kode di dalam blok for akan dieksekusi sebanyak jumlah data yang dijadikan parameter pada for",
+                        "wrap": true
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/logikaperulangan/for.PNG",
+                        "size": "full"
+                    },
+                    {
+                        "type": "box",
+                        "margin": "xl",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "color": "#ff1a1a",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "Kembali",
+                                    "data": "type=4&flex_kotlin_array.json",
+                                    "text": "Ajari Kotlin Array dan List"
+                                }
+                            },
+                            {
+                                "type": "separator",
+                                "margin": "md"
+                            },
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "color": "#3366cc",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "Lanjut",
+                                    "data": "type=4&flex_kotlin_null.json",
+                                    "text": "Ajari Kotlin Null"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

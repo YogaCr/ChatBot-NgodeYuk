@@ -1,0 +1,73 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Null",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Pada Kotlin,variabel yang sudah ditentukan tipenya dari awal tidak bisa memiliki nilai null.\nJika ingin bernilai null,maka harus ditambahkan '?' di tipe datanya",
+                        "wrap": true
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/null/null.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    },
+                    {
+                        "type": "box",
+                        "margin": "xl",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "color": "#ff1a1a",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "Kembali",
+                                    "data":"type=4&flex_kotlin_decision.json",
+                            "text":"Ajari Kotlin Logika dan Perulangan"
+                                }
+                            },
+                            {
+                                "type": "separator",
+                                "margin": "md"
+                            },
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "color": "#3366cc",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "Lanjut",
+                                    "data":"type=4&flex_kotlin_function.json",
+                            "text":"Ajari Kotlin Function"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

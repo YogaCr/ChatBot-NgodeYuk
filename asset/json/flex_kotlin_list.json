@@ -1,0 +1,206 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Kotlin",
+                        "size": "xxl"
+                    }
+                ]
+            },
+            "hero": {
+                "type": "image",
+                "url": "https://cdn-images-1.medium.com/max/1600/1*jP-6BxHaaQ0D7bn5k-NRlQ.png"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Materi",
+                        "weight": "bold",
+                        "size": "lg",
+                        "margin": "md"
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "postback",
+                            "label": "Variabel",
+                            "data": "type=4&flex_kotlin_variabel.json",
+                            "text": "Ajari Kotlin Variabel"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "postback",
+                            "label": "Array dan List",
+                            "data": "type=4&flex_kotlin_array.json",
+                            "text": "Ajari Kotlin Array dan List"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "postback",
+                            "label": "Logika dan Perulangan",
+                            "data": "type=4&flex_kotlin_decision.json",
+                            "text": "Ajari Kotlin Logika dan Perulangan"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Kotlin",
+                        "size": "xxl"
+                    }
+                ]
+            },
+            "hero": {
+                "type": "image",
+                "url": "https://cdn-images-1.medium.com/max/1600/1*jP-6BxHaaQ0D7bn5k-NRlQ.png"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Materi",
+                        "weight": "bold",
+                        "size": "lg",
+                        "margin": "md"
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "postback",
+                            "label": "Null",
+                            "data": "type=4&flex_kotlin_null.json",
+                            "text": "Ajari Kotlin Null"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "postback",
+                            "label": "Access Modifier",
+                            "data": "type=4&flex_kotlin_access.json",
+                            "text": "Ajari Kotlin Access Modifier"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "postback",
+                            "label": "Function",
+                            "data": "type=4&flex_kotlin_function.json",
+                            "text": "Ajari Kotlin Function"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Kotlin",
+                        "size": "xxl"
+                    }
+                ]
+            },
+            "hero": {
+                "type": "image",
+                "url": "https://cdn-images-1.medium.com/max/1600/1*jP-6BxHaaQ0D7bn5k-NRlQ.png"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Materi",
+                        "weight": "bold",
+                        "size": "lg",
+                        "margin": "md"
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "postback",
+                            "label": "Class",
+                            "data": "type=4&flex_kotlin_class.json",
+                            "text": "Ajari Kotlin Class"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "postback",
+                            "label": "Penerapan OOP",
+                            "data": "type=4&flex_kotlin_oop.json",
+                            "text": "Ajari Kotlin OOP"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "postback",
+                            "label": "Interface",
+                            "data": "type=4&flex_kotlin_interface.json",
+                            "text": "Ajari Kotlin Interface"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Interface",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Interface",
+                        "weight": "bold",
+                        "size": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Interface adalah sebuah file yang berisi method kosong yang wajib dioverride oleh class yang mengimplementasi interface tersebut. Cara mengimplementasikan sama seperti inheritance (jika bukan subclass) atau dengan menambahkan koma jika class tersebut adalah subclass.\nSatu class bisa mengimplementasikan banyak interface.",
+                        "wrap": true
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/interface/interface.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    },
+                    {
+                        "type": "box",
+                        "margin": "xl",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "color": "#ff1a1a",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "Kembali",
+                                    "data":"type=4&flex_kotlin_oop.json",
+                                    "text":"Ajari Kotlin OOP"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

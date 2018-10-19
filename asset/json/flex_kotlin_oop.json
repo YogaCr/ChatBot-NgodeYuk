@@ -1,0 +1,166 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Penerapan OOP",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Class",
+                        "weight": "bold",
+                        "size": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Class adalah cetakan dari object yang didalamnya berisi properties(variabel) dan method yang dapat digunakan.",
+                        "wrap": true
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/class/class.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Penerapan OOP",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Constructor",
+                        "weight": "bold",
+                        "size": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Constructor adalah blok kode yang akan dijalankan ketika membuat objek dari class tersebut. Kita bisa membuat beberapa constructor yang berbeda dalam satu class.\nDi dalam class ada kata kunci `init` yang akan selalu dieksekusi meskipun kita memakai constructor yang berbeda",
+                        "wrap": true
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/class/constructor.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "Penerapan OOP",
+                        "wrap": true,
+                        "size": "xxl"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Inheritance",
+                        "weight": "bold",
+                        "size": "lg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Inheritance atau pewarisan adalah salah satu konsep OOP di mana subclass bisa mewarisi properties atau method dari superclass.",
+                        "wrap": true
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://yogacahya.me/ngodeyuk/asset/img/kotlin/class/inheritance.PNG",
+                        "aspectMode": "fit",
+                        "size": "full"
+                    },
+                    {
+                        "type": "text",
+                        "text": "Kata kunci override berarti kita telah menimpa method yang ada pada superclass. Sedangkan kata kunci super artinya kita mencoba mengakses method atau properties dari superclass.",
+                        "wrap": true
+                    },
+                    {
+                        "type": "box",
+                        "margin": "xl",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "color": "#ff1a1a",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "Kembali",
+                                    "data":"type=4&flex_kotlin_class.json",
+                                    "text":"Ajari Kotlin Class"
+                                }
+                            },
+                            {
+                                "type": "separator",
+                                "margin": "md"
+                            },
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "color": "#3366cc",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "Lanjut",
+                                    "data":"type=4&flex_kotlin_interface.json",
+                                    "text":"Ajari Kotlin Interface"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
